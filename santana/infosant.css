@@ -1,0 +1,115 @@
+html {
+    font-family: arial;
+}
+
+img {
+    width: 446.6px;
+    height: 300px;
+    border-radius: 0 0 5px 5px;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+}
+
+h3 {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    color: rgb(206, 206, 206);
+}
+
+strong {
+    color: rgb(206, 206, 206);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    display: table;
+    position: relative;
+    height: 100vh;
+    width: 1300px;
+    height: 100px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+ul li {
+    display: table-cell;
+}
+
+ul, .botinfo {
+    display: list-item;
+}
+
+#nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 5px;
+    margin: auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 150px
+}
+
+#head {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+
+.buthead {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 5px;
+    background-color: black;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.motver {
+    width: 300px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.sants {
+    white-space: nowrap;
+    background-color: rgb(34, 34, 34);
+    width: 1349px;
+}
+
+.infos {
+    width: 1349px;
+    height: 440px;
+    background-color: rgb(34, 34, 34);
+    padding-top: 5px;
+    color: white;
+}
+
